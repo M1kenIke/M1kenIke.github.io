@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SickSpeedruns.com</title>
+	<meta charset="utf-8">
+	<link href="competency.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1 class="header"><a href="index.html">SickSpeedruns.com</a></h1>
+	</header>
+	<nav>
+		<h2>Games</h2>
+		<ul class="games">
+			<li>
+				<a href="oot.html"><img src="ocarinaLogo.jpg" alt="Ocarina of Time Speedruns" height="120"
+						width="120"></a> &nbsp;
+			</li>
+			<li>
+				<a href="valheim.html"><img src="valheim.jpg" alt="Valheim Speedruns" height="120" width="120"></a>
+				&nbsp;
+			</li>
+			<li>
+				<a href="halo.html"><img src="halo3Logo.jpg" alt="Halo3 Speedruns" height="120" width="120"></a> &nbsp;
+			</li>
+		</ul>
+
+	</nav>
+	<main>
+        <p>Enter your run info.</p>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="GT">Gamertag:</label>
+                <input type="text" name="GT" id="GT" required="required">
+
+                <label for="Time">Your Time:</label>
+                <input type="time" name="Time" id="Time" required="required">
+
+                <label for="Date">Speedrun Date:</label>
+                <input type="date" name="Date" id="Date" required="required">
+
+                <label for="Platform">Platform:</label>
+                <select name="Platform" id="Platform" required="required">
+                    <option value="" selected="selected">Select A Platform</option>
+                    <option value="Nintendo 64">Nintendo 64</option>
+                    <option value="Gamecube">Gamecube</option>
+                    <option value="Xbox 360">Xbox 360</option>
+                </select>
+                <input type="submit">
+            </form>
+	</main>
+	<footer>
+				Copyright &copy; 2022 SickSpeedruns.com<br>
+				Email Me @ <a href="mailto:michael.nelson07@outlook.com">michael.nelson07@outlook.com</a>
+				<br>
+	</footer>
+</body>
+
+</html>
