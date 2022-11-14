@@ -1,0 +1,163 @@
+body {
+    background-image: url(header1.jpg);
+    color: #d3d3d3;
+    font-family: Arial, sans-serif;
+    margin:0
+}
+header {
+    background-image: url(header1.jpg);
+    background-position: center;
+    line-height: 500%;
+    text-indent: 1em;
+    background-color: #000000;
+    color: #15ff00;
+    margin:0;
+    border: 1px solid #836840;
+    
+}
+nav {
+    float: left;
+    background-image: url(header.jpg);
+    background-color: #000000;
+    font-weight: bold;
+    width: 200px;
+    border: 1px solid #836840;
+    min-height: 65.5vh;
+    
+}
+main {
+    background-image: linear-gradient(to bottom, #1f1f1f, #000000);
+    background-color: #000000;
+    overflow:auto;
+    min-height: 60vh;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.header {
+    color: #15ff00;
+    margin: 0;
+    font-family: bit, "Times New Roman", serif;
+
+}
+.ootBanner {
+    background-image: url(ootBanner.jpg);
+    background-color: black;
+}
+.haloBanner {
+    background-image: url(haloBanner.jpg);
+    background-color: black;
+}
+.valheimBanner {
+    background-image: url(valheimBanner.jpg);
+    background-color: rgb(143, 29, 29);
+}
+h1 {
+    background-image: linear-gradient(to bottom, #1f1f1f, #000000);
+    margin: 0;
+    font-family: "Times New Roman", serif;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    color: #ecad25;
+    font-family: Georgia, "Times New Roman", serif;
+    padding-top: 2em;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+ul.games {
+    list-style: none;
+}
+div.container {
+    text-align: center;
+}
+footer {
+    bottom: 0;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(header1.jpg);
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    border: 1px solid #836840;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #15ff00;
+}
+a:hover {
+    color: #9aff91;
+}
+@font-face {
+    font-family: bit;
+    src: url(8bit.woff) format("woff");
+}
+hr {
+    border: 1px solid #836840;
+    margin:0;
+}
+#gamesList {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.centerTable {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+table {
+    background-color: hsla(1, 1%, 1%, .7);
+    border: 2px solid #836840;
+    border-collapse: collapse;
+    width: 600px;
+}
+td, th {
+    border: 2px solid #836840;
+    height: 30px;
+}
+.name {
+    color: #ff6161;
+}
+caption {
+    font-family: bit, "Times New Roman", Serif;
+    color: #d3d3d3;
+    margin-bottom: 3px;
+}
+.enter {
+    padding-bottom: 2em;
+}
+#divTable {
+    padding-bottom: 2em;
+}
+form {
+    display: inline-block;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"]{ 
+    margin-left: 140px;
+    margin-top: 20px;
+}
+/*git*/
